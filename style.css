@@ -1,0 +1,266 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 500px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+  
+  td {
+    width: 120px;
+    height: 120px;
+    font-size: 36px;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #ddd;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s, transform 0.1s;
+  }
+  
+  td:hover {
+    background-color: #f7f7f7;
+    transform: scale(1.05);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  a {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: background-color 0.2s;
+  }
+  
+  a:hover {
+    background-color: #333;
+    color: #f0f0f0;
+  }
+  
+  .game-over {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+    color: #cc0000;
+  }
+  
+  /* Color mapping for different tile values */
+  /* You can customize these colors as per your preference */
+  .tile-2 { background-color: #eee4da; color: #776e65; }
+  .tile-4 { background-color: #ede0c8; color: #776e65; }
+  .tile-8 { background-color: #f2b179; color: #f9f6f2; }
+  .tile-16 { background-color: #f59563; color: #f9f6f2; }
+  .tile-32 { background-color: #f67c5f; color: #f9f6f2; }
+  .tile-64 { background-color: #f65e3b; color: #f9f6f2; }
+  .tile-128 { background-color: #edcf72; color: #f9f6f2; }
+  .tile-256 { background-color: #edcc61; color: #f9f6f2; }
+  .tile-512 { background-color: #edc850; color: #f9f6f2; }
+  .tile-1024 { background-color: #edc53f; color: #f9f6f2; }
+  .tile-2048 { background-color: #edc22e; color: #f9f6f2; }
+
+
+
+  
+  
+  /* Global styles for all devices */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 500px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+  
+  td {
+    width: 120px;
+    height: 120px;
+    font-size: 36px;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #ddd;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s, transform 0.1s;
+  }
+  
+  td:hover {
+    background-color: #f7f7f7;
+    transform: scale(1.05);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  a {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: background-color 0.2s;
+  }
+  
+  a:hover {
+    background-color: #333;
+    color: #f0f0f0;
+  }
+  
+  .game-over {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+    color: #cc0000;
+  }
+  
+  /* Color mapping for different tile values */
+  /* You can customize these colors as per your preference */
+  .tile-2 {
+    background-color: #eee4da;
+    color: #776e65;
+  }
+  .tile-4 {
+    background-color: #ede0c8;
+    color: #776e65;
+  }
+  .tile-8 {
+    background-color: #f2b179;
+    color: #f9f6f2;
+  }
+  .tile-16 {
+    background-color: #f59563;
+    color: #f9f6f2;
+  }
+  .tile-32 {
+    background-color: #f67c5f;
+    color: #f9f6f2;
+  }
+  .tile-64 {
+    background-color: #f65e3b;
+    color: #f9f6f2;
+  }
+  .tile-128 {
+    background-color: #edcf72;
+    color: #f9f6f2;
+  }
+  .tile-256 {
+    background-color: #edcc61;
+    color: #f9f6f2;
+  }
+  .tile-512 {
+    background-color: #edc850;
+    color: #f9f6f2;
+  }
+  .tile-1024 {
+    background-color: #edc53f;
+    color: #f9f6f2;
+  }
+  .tile-2048 {
+    background-color: #edc22e;
+    color: #f9f6f2;
+  }
+  
+  /* Tablet and Phone Styles */
+  @media screen and (max-width: 768px) {
+    .container {
+      max-width: 90%;
+    }
+  
+    td {
+      width: 80px;
+      height: 80px;
+      font-size: 24px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 18px;
+    }
+  }
+  
+  /* Phone Styles */
+  @media screen and (max-width: 480px) {
+    td {
+      width: 60px;
+      height: 60px;
+      font-size: 18px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    h2 {
+      font-size: 16px;
+    }
+  
+    a {
+      font-size: 16px;
+    }
+  
+    .game-over {
+      font-size: 20px;
+    }
+  }
+  
